@@ -155,6 +155,5 @@ WHERE Member_ID = ?",[memberid])
     data = data.fetchall()
     return render_template('viewall.html',heading=heading,header=header,data=data)
 
-
 if __name__ == '__main__':
-    app.run(port = 6789, debug = True)
+    app.run(debug=True, use_reloader=True)
