@@ -1,0 +1,82 @@
+<html style = "border:7px; border-style:solid; border-color:008080; background-color:#FFFAF1;">
+	<body>
+		<p style = "border:1px; border-style:dotted; padding: 1em;"><font size = "4"><i><strong> IMPORTANT STAFF NOTICE: </strong>  Due to the recent spike in the number of cases of the coronavirus pandemic in Singapore, 
+		we will cater to members FIRST before the general public. Note that everyone is subjected to the taking of temperature before coming to work, and those without masks will not be permitted.
+		We seek your cooperation in this matter and to ensure a clean environment. Always sanitize as well. 
+		Thank you and let's pray for the pandemic to subside.</i></font></p>
+	</body>
+	
+	<br>
+	<p align = "right"><font size = "4">JPJC SALON WEBSITE: HOMEPAGE</font></p>
+		<table>
+			<tr>
+				<td><p style = "margin-left:40px;"><img src = "{{ url_for('static',filename = 'barbershop_pole.gif')}}" alt = "barbershop pole gif" width = "150 height = "150></p></td>
+				<td><p style = "margin-left:20px;"><font size = "5" color = "#FF69B4">JPJC SALON STAFF WEBSITE</p></td>
+			</tr>
+		</table>
+	<br>
+	</body>
+	
+	<body>
+		<h1 align = "center" style = "font-size:100px;"><font color = "#a0d6b4">JPJC SALON</font></h1>
+	</body>
+	
+	<br><br>
+	
+	<body>
+		<table width = "1100" align = "center" style =  "border:3px; border-style:dashed; padding:0.5em; border-color:#008080">
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4">To edit or update <strong><i>services available</i></strong> and <strong><i>values</i></strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4">To view <strong><i>monthly transactions, monthly transactions</i></strong> or <strong><i>member transactions</i></strong></font></p></td>
+			</tr>
+			<tr>
+				<form action = "{{ url_for('edit_values_page') }}" method = "POST">
+					<td height = "50"><p align = "center"><input type = "submit" value = "EDITING PAGE"></p></td>
+				</form>
+				<form action = "{{ url_for('query_values_page') }}" method = "POST">	
+					<td height = "50"><p align = "center"><input type = "submit" value = "QUERYING PAGE"></p></td>
+				</form>
+			</tr>
+		</table>
+	</body>
+		
+	<br><br><br><br>
+	
+	<body>
+		<h2 align = "center"><font size = "6"> STAFF CONTACT </font></h2>
+		<p align = "center"><font size = "4"> Customers can make a reservation for an appointment by calling the hotline at: <strong><i>+65 6702 2883</i><strong></font></p>
+		<p align = "center"><font size = "4"> Customers can also contact our barbers by referring to their phone numbers below: </font><p>
+		<br>
+		<table width = "450" style =  "border:3px; border-style:solid; padding:0.5em; border-color:#008080" align = "center">>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Cai Zhenzhi Kook</strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 8283 8090</strong></font></p></td>
+			</tr>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Fahkem Kaahmel</strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 9082 3820</strong></font></p></td>
+			</tr>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Adrian Brody</strong></font></p></th>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 9273 2837</strong></font></p></th>
+			</tr>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Cilian Murphy</strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 9382 3720</strong></font></p><td>
+			</tr>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Eva Elfie</strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 9203 2380</strong></font></p></td>
+			</tr>
+			<tr>
+				<td height = "50"><p align = "center"><font size = "4"><strong>Dina Aliyyah</strong></font></p></td>
+				<td height = "50"><p align = "center"><font size = "4"><strong>+65 9822 4037</strong></font></p></td>
+			</tr>
+		</table>
+	</body>
+	<br><br><br><br><br><br>
+	<body>
+		<p align = "left" style = "border:dotted; border-color:black; padding:1em;"><font size = "3"><i>Do serve customers with a smile! Remember to practice good hygiene and ensure that
+		customers are respected at all times.</i></font></p>
+	</body>
+</html>

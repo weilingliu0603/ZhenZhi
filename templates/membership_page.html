@@ -1,0 +1,93 @@
+<html style = "border:7px; border-style:solid; border-color:008080; background-color:#FFFAF1;">
+
+	<body>
+		<h1 align = "center" style = "font-size:100px; border:4px; border-style:solid; border-color:#301934; padding: 0.5em;"><font size = "20" color = "#D4AF37"> JPJC SALON Membership Page</font></h1>
+		<p><font size = "5">JPJC SALON is among the top-rated salons in Singapore, 
+		and caters to famous celebrities <br/><br/> such as Jekie Shun, Share Rukh Cant, Jenniper Lawrence and many more!!  JPJC SALON 
+		hires only the best of barbers including the <br/><br/> famous Korean barber, <strong>Cai Zhenzhi Kook</strong>, 
+		and the talented German barber <strong>Fahkhem Kaahmel</strong></p>
+		<br/><br/>
+		Do feel free to scroll through the website to learn more about us!</p>
+		<p><font size = "5"> Do sign up for our membership pass so that you
+		could recieve the latest updates on offers and discounts. Here are a few benefits
+  		<br><br> one could enjoy after signing up for our membership:</font></p>
+		<br>
+		<p><font size = "5"><strong>1. Membership discounts, up to <mark>70%</mark> off the total amount!</strong></font></p>
+		<p><font size = "5"><strong>2. Members could request for their favourite or preferred barber!</strong></font></p>
+		<p><font size = "5"><strong>3. <mark>Free</mark> "HAIRstylez" magazines written by the famous hairstylist, Fahkhem, worth $25!!</strong></font></p>
+		<p><font size = "5"><strong>4. <mark>Free</mark> service upon minimum spend of $100!!</strong></font></p>
+		<br>
+		<p><font size = "5">The whole lost of membership offers will be sent to you through your e-mail address and phone number upon sign-up.</font></p>
+		<p><font size = "5">To sign up, just fill in the form below! Thank you!</font></p>
+	</body>
+	
+		<br><br>
+		
+		<hr>
+		
+		<br>
+		
+		<h2 style = "font-size:50px; border:3px; border-style:solid; border-color:#301934; padding: 0.5em; text-align:center"><font color = "blue" size = "15"> MEMBERSHIP SIGNUP </font></h2>
+		<form action = "{{ url_for('submit_add_member') }}" method = "POST">
+		
+		<br>
+		
+	<body>
+		<table width = "1100" align = "center">
+			<tr>
+				<td><br/></td>
+			</tr>
+			<tr>
+				<th><p><font size = "4"> Enter your full name: </font></p></th>
+				<th><p><font size = "4"> Enter your email address<sup>*</sup>: </font></p></th>
+				<th><p><font size = "4"> Indicate your gender: </font></p></th>
+				<th><p><font size = "4"> Contact number: </font></p></th>
+				<th><p><font size = "4"> Home address: </font></p></th>
+			</tr>
+			<tr>
+				<th><p>(as in NRIC)</p></th>
+				<th></th>
+				<th><p>(select an option)</p></th>
+				<th></th>
+				<th><p>(indicate postal code)
+			<tr>
+				<td><br/></td>
+			</tr>
+			<tr>
+				<th><input name = "name" type = "text" style = "width:250px; height:35px;"></th>
+				<th><input name = "email" type = "text" style = "width:250px; height:35px;"></th>
+				<th>
+					<select name = "gender" align = "left" style = "width:250px; height:35px;">
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+						<option value="N">Prefer not to say</option>
+					</select>
+				</th>
+				<th><input name = "contactnumber" type = "text" style = "width:250px; height:35px;"></th>
+				<th><input name = "address" type = "text" style = "width:250px; height:35px;"></th>
+			</tr>
+		</table>
+	</body>
+	
+	<br>
+	
+	<p align = "center"><input type = "submit" value = "SUBMIT FORM"></p>
+	
+	<br><br><br>
+	
+	<p align = "left"><font size = "3">*Please enter a valid e-mail address. We may e-mail you relevant offers and discounts on our services.</font></p>
+	
+	<br><br><br><br><br>
+	
+	<hr>
+
+	</form>
+	
+	<br><br><br><br>
+	
+	<body>
+		<p align = "left" style = "border:dotted; border-color:black; padding:1em;"><font size = "3"><i>Do serve customers with a smile! Remember to practice good hygiene and ensure that
+		customers are respected at all times.</i></font></p>
+	</body>
+	
+</html>
